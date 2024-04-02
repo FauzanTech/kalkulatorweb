@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="hasil">
+        <span id="teks">Hasil = </span>
+        <div class="row1">
+            <button onclick="del()">C</button>
+            <button type="button">()</button>
+            <button type="button">%</button>
+            <button type="button">/</button>
+        </div>
+        <div class="row2">
+            <button type="button" onclick="setNilai(7)">7</button>
+            <button type="button" onclick="setNilai(8)">8</button>
+            <button type="button" onclick="setNilai(9)">9</button>
+            <button type="button">*</button>
+        </div>
+        <div class="row3">
+            <button type="button" onclick="setNilai(4)">4</button>
+            <button type="button" onclick="setNilai(5)">5</button>    
+            <button type="button" onclick="setNilai(6)">6</button>
+            <button type="button">-</button>
+        </div>
+        <div class="row4">
+            <button type="button" onclick="setNilai(1)">1</button>
+            <button type="button" onclick="setNilai(2)">2</button>
+            <button type="button" onclick="setNilai(3)">3</button>
+            <button type="button">+</button>
+        </div>
+        <div class="row5">
+            <button type="button">+/-</button>
+            <button type="button">0</button>
+            <button type="button">,</button>
+            <button type="button">=</button>
+        </div>
+    </div>
+    <script>
+        function del() {
+            document.getElementById("hasil").value = "";
+            // document.getElementById("teks").innerHTML = document.getElementById("hasil").value;
+            // alert("testestes");
+        }
+
+        function setNilai(nilai) {
+            document.getElementById("hasil").value = document.getElementById("hasil").value + nilai;
+        }
+    </script>
+</body>
+</html>
