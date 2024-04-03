@@ -1,0 +1,34 @@
+.container {
+    background-color: aqua;
+    width: 14rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.nilai {
+    height: 35px;
+    width: 13rem;
+}
+
+div .flex {
+    margin: 10px 5px;
+    
+}
+
+div .flex div {
+    margin: 0.3rem;
+    background-color: blueviolet;
+    text-align: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* #hasil {
+    background-color: black;
+} */
+
