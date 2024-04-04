@@ -1,14 +1,33 @@
 .container {
-    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC94A;
     width: 14rem;
     margin: auto;
     margin-top: 2rem;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border-top: 10px hidden #ff6550;
+border-bottom: 10px solid #858585;
+}
+
+#hasil {
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: 10px;
+    font-size: 35px;
 }
 
 .nilai {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAD8C0;
     height: 35px;
-    width: 13rem;
+    width: 11.5rem;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px auto;
+    margin-left: 9px;
+    border: none;
+    border-radius: 8px;
 }
 
 div .flex {
@@ -18,7 +37,8 @@ div .flex {
 
 div .flex div {
     margin: 0.3rem;
-    background-color: blueviolet;
+    color: aliceblue;
+    background-color: #453F78;
     text-align: center;
     justify-content: center;
     width: 32px;
@@ -26,6 +46,31 @@ div .flex div {
     border-radius: 15px;
     font-size: 25px;
     padding: 5px;
+}
+
+div .flex div:hover {
+    background-color: #635f86;
+    cursor: pointer;
+}
+
+.clear {
+    margin: 0.3rem;
+    color: aliceblue;
+    background-color: #65B741;
+    text-align: center;
+    justify-content: center;
+    width: 12rem;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px 8px;
+}
+
+.clear:hover {
+    border-top: 10px hidden #ff6550;
+    border-bottom: 6px solid #858585;
+    cursor: pointer;
 }
 
 /* #hasil {
